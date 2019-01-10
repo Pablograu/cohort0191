@@ -1,0 +1,172 @@
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+    
+  }
+  
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: #151516;
+    background-color: #afc7e0;
+  }
+ 
+
+header {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    background-color: white;
+}
+.back{
+    justify-content: flex-start;
+    align-content: flex-start;
+}
+
+.navbar{
+    display: none;
+}
+.Navbar__Link-toggle {
+    align-self: flex-end;
+    display: flex; 
+    cursor: pointer;
+    height: 50px;
+  }
+  .fa, .fas {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 20px;
+    padding-top: 0;
+    margin-right: 15px;
+    display: flex;
+  }
+  .fa, .fas i{
+      display: flex;
+      align-items: center;
+      padding: 20px;
+      margin-top: 20px;
+  }
+.intro h1{
+    font-family: 'Open Sans', sans-serif;
+}
+.intro{
+    text-align: center;
+}
+.intro h3{
+    color: #66101F;
+}
+
+.intro img{
+    border-radius: 5%;
+    width: 50%;
+}
+
+.about{
+    text-align: center;
+    margin: 0 auto;
+}
+.about h2{
+    border-top: 4px solid white;
+}
+.about p{
+    margin-top: 0;
+    font-size: 0.8rem;
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.myprojects h2{
+    border-top: 4px solid white;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+   justify-content: center;
+}
+.third img{
+    width: 100%;
+}
+
+.third{
+    width: 100%;
+   
+}
+
+.myprojects{
+    text-align: center;
+}
+
+.pjimg{}
+
+footer{
+    height: 50px;
+}
+
+
+
+/* desktop */
+@media (min-width: 726px) { 
+    .navbar{
+        width: 90%;
+        padding: 10px;
+        margin: 0 auto;
+        display: flex;
+        overflow: hidden;
+        box-sizing: border-box;
+        justify-content: flex-end;
+        color: black;
+    }
+    
+    nav img{
+        float: left;
+        box-sizing: border-box;
+    }
+    nav li{
+        
+        display: inline;
+        padding: 10px;   
+    }
+    header li:hover{
+        color: white;
+        background-color: #66101F;
+    }
+    nav a{
+        text-decoration: none;
+        color: black;
+    }
+    .Navbar__Link-toggle {
+        display: none;
+      }
+    .fa, .fas {
+        display: none;
+      }
+    .intro img{
+        border-radius: 5%;
+        max-width: 50%;
+    }
+    .intro h1{
+        font-size: 5rem;
+        margin: 5px;
+        font-weight: 400;
+    }
+    .wrap{
+        display: flex;
+        flex-direction: row;
+    }
+    .third{
+        height: 200px;
+        float: left;
+    }
+    .third img{
+        width: 90%;
+    }
+    
+ }
