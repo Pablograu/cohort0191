@@ -10,54 +10,71 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 </head>
 
 <body>
-    <header>
-        <h1>Pablo Grau</h1>       
-    </header>
+<header>
+    <div class="goback">
+        <a class="goback" href="../../index.html">Back</a>
+     </div>
+    <div class="Navbar__Link Navbar__Link-toggle">
+         <a href="#"><i class="fas fa-bars"></i></a>
+    </div>
+    <!-- only for desktop version -->
+    <nav class="navbar">
+      <ul>
+        <li class="hover"><a href="#">About</a></li>
+        <li class="hover"><a href="#">Portfolio</a></li>
+        <li class="hover"><a href="#">Resume</a></li>
+        <li class="hover"><a href="#">Contact</a></li>
+      </ul> 
+    </nav>    
+</header>
 <main>
-    <div class="intro">
-        <section>
-                <h3>Full Stack Developer in process</h3>
-                <img src="https://scontent.fmad3-5.fna.fbcdn.net/v/t1.0-9/555148_10151340044750766_1564491481_n.jpg?_nc_cat=102&_nc_ht=scontent.fmad3-5.fna&oh=359f4610c6f9b95af5204f67d9009396&oe=5CC40471" width="300" alt="pablo's pic">
-        </section>
-    </div>
+    <section class="intro">
+        <h1>Pablo Grau</h1>
+        <h3>Full Stack Developer in process</h3>
+        <img src="https://scontent.fmad3-5.fna.fbcdn.net/v/t1.0-9/555148_10151340044750766_1564491481_n.jpg?_nc_cat=102&_nc_ht=scontent.fmad3-5.fna&oh=359f4610c6f9b95af5204f67d9009396&oe=5CC40471" width="300" alt="pablo's pic">
+    </section>
 
-    <div class="about">
-        <section id="about">
-            <h2>About me</h2>
-            <p>Born in Barcelona in 1989.....</p>
-        </section>
+  
+    <section class="about">
+        <h2>About me</h2>
+        <p>Bacon ipsum dolor amet leberkas ball tip corned beef, drumstick venison tenderloin burgdoggen. Sausage salami cow, short ribs tri-tip pastrami pig meatball hamburger ham turducken jerky sirloin strip steak. Jerky doner tenderloin biltong t-bone ribeye. Ham picanha capicola meatball filet mignon andouille tenderloin. Jerky pork belly fatback meatloaf, drumstick buffalo burgdoggen short ribs doner meatball turducken.</p>
+    </section>  
+    <div class="myprojects">
+        <h2>My Projects</h2>
     </div>
-    <div class="exercises">
-        <section>
-            <h3>Exercises</h3>
-                <ul>
-                    <li><a href="#">Some exercise</a></li>
-                    <li>Another exercise</li>
-                    <li>Omg a third exercise!!</li>
-                    <li>hired</li>
-                </ul>
-        </section>
-    </div>
+    <section class="wrap">
+        <div class="third">
+          <h4>Project 1</h4>
+          <div class="pjimg"><img src="https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></div>
+          
+        </div>
+        <div class="third">
+          <h4>Project 2</h4>
+          <div class="pjimg"><img src="https://images.unsplash.com/photo-1496674205429-924b32acd421?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></div>
+          
+        </div>
+        <div class="third">
+          <h4>Project </h4>
+          <div class="pjimg"><img src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt=""></div>
+          
+        </div> 
+    </section>
 </main>
     <footer class="comments">
        
-            <h2>Drop a comment!</h2>
-                <form action="http://google.es">
-                    <textarea name="text" id="comment" cols="30" rows="5"></textarea>
-                    <input type="submit" value="Submit">
-                </form>
+        <!-- <h4>Drop a comment!</h4>
+            <form action="http://google.es">
+                <textarea name="text" id="comment" cols="30" rows="5"></textarea>
+                <input type="submit" value="Submit">
+            </form> -->
        
     </footer>
-
-
-
-
-
-
-
-
+    <script src="javascript.js"></script>
 </body>
 </html>
